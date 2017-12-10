@@ -1,1 +1,1 @@
-# bosch
+Repository for the Bosch Production Line Performance Kaggle contest project.

@@ -1,0 +1,9 @@
+The project plan is the following
+
+* Preprocess the data (3h) - We probably want to use a subset of the data, we need to extract validation set, account for imbalance and combine the fields
+* Analyze the features (5h) - There are a huge number of features. It's likely many are irrelevant or have low relevance. We want to identify and remove such features
+* Preprocess the features (2h) - Actually remove useless features from data
+* Try different ML models with different hyperparameters (25h) - The bulk of the work. We want to find the best predictors. We can use anything, and every model covered in this course is a candidate. Can potentially spend much longer on this.
+* Train on full training set (4h) - After identifying good models, training them on full data is a good idea
+* Construct an ensemble (2h) - We can combine the best models into an ensamble to get an even better model
+* Perform prediction on the test set (5h) - Finally we want to produce output for the competition. The sheer size of the test set probably adds a lot of difficulty.

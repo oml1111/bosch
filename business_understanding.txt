@@ -1,0 +1,23 @@
+This project involves participation in the "Bosch Production Line Performance" kaggle competition. Basically there is this leading manufacturing company Boch that wants to ensure that the mechanical components it produces match high quality and safety standards. They would like to meet those standars with lower costs and as such would like to use data from the manufacturing to make the detection of faults more efficient. To allow for that they record a lot of data from every step of their manufacturing proccess.
+
+The goal of this project is to construct a predictor that efficiently predicts if a product will fail quality control. In the kaggle competition the best predictor will be picked and potentially be used to improve the quality assurance process.
+
+The internal success criteria is not public, however the company has specified that they want predictors with the greatest "Matthews correlation coefficient", so the goal of this project is to get as good MCC as possible.
+
+The resources we have are obviously us, our computers and the software on them. Additionally the company has provided all the necessary data, so our job is just to do something useful with it. If necessary and fesable we could use the TU clusters for training.
+
+This project will obviously have to be completed by the poster session in January. The basic requirement is that the predictor actually produces output that the kaggle system can grade, besides that we'll try to get the best results we can. An obvious benchmark is the results of other competitiors but at current point we have no idea what would be reasonable point to strive for.
+
+The only risk is time, specifically how much we'll have available for this project. Pretty much all the useful work can be done anywhere behind our computers and soon we'll have a winter break, so hopefully time won't be too big of an issue, but unfortunately availability of time can be unpredictable.
+
+Since everyone on the project will have the same background I don't think it's necessary to specify all terminology used throughout the project (especially since it can be difficult to predict)
+
+There will be no monetary costs, but there will be a time cost: the total time spent will probably have to be at least 50 man-hours. Since the contest is already over, the potential benefits are also limited to knowledge and experience, but that's the whole point of college.
+
+The results that our project will produce are:
+
+  * A predictor that predicts if product will fail quality control
+  * A report describing how the predictor works
+  * Predicted outcomes on the test set that kaggle will use to grade our predictor
+  
+The most straightforward metric of success for our project will be the score we'll get from the Kaggle contest evaluation system. Since the goal is knowlege and experience, another important criteria for success will be how much we'll have learned from this project.
