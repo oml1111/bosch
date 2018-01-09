@@ -1,0 +1,3 @@
+lines: 1183747
+0-responses: 1176868
+1-responses: 6879
